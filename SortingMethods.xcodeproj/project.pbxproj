@@ -11,6 +11,11 @@
 		2B98C2EC2662F8FE003F1A87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2EB2662F8FE003F1A87 /* ContentView.swift */; };
 		2B98C2EE2662F8FF003F1A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */; };
 		2B98C2F12662F8FF003F1A87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B98C2F02662F8FF003F1A87 /* Preview Assets.xcassets */; };
+		2B98C2F92662F97E003F1A87 /* SortClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2F82662F97E003F1A87 /* SortClass.swift */; };
+		2B98C2FB2662F9B4003F1A87 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FA2662F9B4003F1A87 /* Sort.swift */; };
+		2B98C2FE2663D471003F1A87 /* RectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FD2663D471003F1A87 /* RectData.swift */; };
+		2B98C3002663D693003F1A87 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FF2663D693003F1A87 /* ControlPanel.swift */; };
+		2B98C3022663E7F5003F1A87 /* SwapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C3012663E7F5003F1A87 /* SwapData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B98C2F02662F8FF003F1A87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B98C2F22662F8FF003F1A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B98C2F82662F97E003F1A87 /* SortClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
+		2B98C2FA2662F9B4003F1A87 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		2B98C2FD2663D471003F1A87 /* RectData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectData.swift; sourceTree = "<group>"; };
+		2B98C2FF2663D693003F1A87 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		2B98C3012663E7F5003F1A87 /* SwapData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,10 @@
 		2B98C2E82662F8FE003F1A87 /* SortingMethods */ = {
 			isa = PBXGroup;
 			children = (
+				2B98C2FC2663D432003F1A87 /* Model */,
 				2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */,
 				2B98C2EB2662F8FE003F1A87 /* ContentView.swift */,
+				2B98C2FF2663D693003F1A87 /* ControlPanel.swift */,
 				2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */,
 				2B98C2F22662F8FF003F1A87 /* Info.plist */,
 				2B98C2EF2662F8FF003F1A87 /* Preview Content */,
@@ -67,6 +79,17 @@
 				2B98C2F02662F8FF003F1A87 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B98C2FC2663D432003F1A87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B98C2FD2663D471003F1A87 /* RectData.swift */,
+				2B98C3012663E7F5003F1A87 /* SwapData.swift */,
+				2B98C2FA2662F9B4003F1A87 /* Sort.swift */,
+				2B98C2F82662F97E003F1A87 /* SortClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B98C3002663D693003F1A87 /* ControlPanel.swift in Sources */,
+				2B98C2F92662F97E003F1A87 /* SortClass.swift in Sources */,
+				2B98C3022663E7F5003F1A87 /* SwapData.swift in Sources */,
+				2B98C2FB2662F9B4003F1A87 /* Sort.swift in Sources */,
+				2B98C2FE2663D471003F1A87 /* RectData.swift in Sources */,
 				2B98C2EC2662F8FE003F1A87 /* ContentView.swift in Sources */,
 				2B98C2EA2662F8FE003F1A87 /* SortingMethodsApp.swift in Sources */,
 			);
