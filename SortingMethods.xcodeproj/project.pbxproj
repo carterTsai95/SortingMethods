@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B448D5E26646250005E0D4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B448D5D26646250005E0D4B /* Constants.swift */; };
 		2B98C2EA2662F8FE003F1A87 /* SortingMethodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */; };
 		2B98C2EC2662F8FE003F1A87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2EB2662F8FE003F1A87 /* ContentView.swift */; };
 		2B98C2EE2662F8FF003F1A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */; };
@@ -14,11 +15,11 @@
 		2B98C2F92662F97E003F1A87 /* SortClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2F82662F97E003F1A87 /* SortClass.swift */; };
 		2B98C2FB2662F9B4003F1A87 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FA2662F9B4003F1A87 /* Sort.swift */; };
 		2B98C2FE2663D471003F1A87 /* RectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FD2663D471003F1A87 /* RectData.swift */; };
-		2B98C3002663D693003F1A87 /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2FF2663D693003F1A87 /* ControlPanel.swift */; };
 		2B98C3022663E7F5003F1A87 /* SwapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C3012663E7F5003F1A87 /* SwapData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B448D5D26646250005E0D4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2B98C2E62662F8FE003F1A87 /* SortingMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingMethodsApp.swift; sourceTree = "<group>"; };
 		2B98C2EB2662F8FE003F1A87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		2B98C2F82662F97E003F1A87 /* SortClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
 		2B98C2FA2662F9B4003F1A87 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		2B98C2FD2663D471003F1A87 /* RectData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectData.swift; sourceTree = "<group>"; };
-		2B98C2FF2663D693003F1A87 /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
 		2B98C3012663E7F5003F1A87 /* SwapData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,10 +65,10 @@
 				2B98C2FC2663D432003F1A87 /* Model */,
 				2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */,
 				2B98C2EB2662F8FE003F1A87 /* ContentView.swift */,
-				2B98C2FF2663D693003F1A87 /* ControlPanel.swift */,
 				2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */,
 				2B98C2F22662F8FF003F1A87 /* Info.plist */,
 				2B98C2EF2662F8FF003F1A87 /* Preview Content */,
+				2B448D5D26646250005E0D4B /* Constants.swift */,
 			);
 			path = SortingMethods;
 			sourceTree = "<group>";
@@ -161,13 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B98C3002663D693003F1A87 /* ControlPanel.swift in Sources */,
 				2B98C2F92662F97E003F1A87 /* SortClass.swift in Sources */,
 				2B98C3022663E7F5003F1A87 /* SwapData.swift in Sources */,
 				2B98C2FB2662F9B4003F1A87 /* Sort.swift in Sources */,
 				2B98C2FE2663D471003F1A87 /* RectData.swift in Sources */,
 				2B98C2EC2662F8FE003F1A87 /* ContentView.swift in Sources */,
 				2B98C2EA2662F8FE003F1A87 /* SortingMethodsApp.swift in Sources */,
+				2B448D5E26646250005E0D4B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

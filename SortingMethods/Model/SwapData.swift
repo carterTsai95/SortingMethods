@@ -3,8 +3,8 @@
 //  SwapData.swift
 //  SortingAlgorithmns
 //
-//  Created by Haipp on 04.05.21.
-//  
+//  Oringinal created by Haipp on 03.05.21.
+//  Modify by Hung-Chun, Tsai on 30,05,21.
 	
 
 import Foundation
@@ -13,4 +13,8 @@ import Foundation
 struct SwapData {
 	let fromIndex: Int
 	let toIndex: Int
+    
+    func appendList() {
+        
+    }
 }

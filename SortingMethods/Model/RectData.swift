@@ -3,8 +3,8 @@
 //  RectData.swift
 //  SortingAlgorithmns
 //
-//  Created by Haipp on 03.05.21.
-//  
+//  Oringinal created by Haipp on 03.05.21.
+//  Modify by Hung-Chun, Tsai on 30,05,21.
 	
 
 import UIKit
@@ -25,11 +25,5 @@ extension RectData: Comparable {
 	
 	static func == (lhs: RectData, rhs: RectData) -> Bool {
 		return lhs.id == rhs.id
-	}
-}
-
-extension RectData: CustomStringConvertible {
-	var description: String {
-		return String(format: "%.2f", value)
 	}
 }

@@ -9,5 +9,6 @@ import Foundation
 
 protocol SortType {
     var name: String { get }
-    func sort(items: [RectData]) -> [SwapData]
+    var timeComplexity: String {get }
+    mutating func sort(items: [RectData]) -> [SwapData]
 }
