@@ -2,7 +2,7 @@
 ![Swift](https://img.shields.io/badge/iOS-13.0-brightgreen)
 ![Swift](https://img.shields.io/badge/SwiftUI-2.0-brightgreen)
 
-# SwiftUI - WeatherForecast
+# SwiftUI - Sorting algorithms
 <br />
 
 | 1. Bubble Sort  | 2. Selection Sort | 3. Insert Sort|
