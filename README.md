@@ -14,6 +14,7 @@
 | <img src="Screenshot/04.gif" alt="action" width="300"> | <img src="Screenshot/05.gif" alt="action" width="300"> | <img src="Screenshot/06.gif" alt="action" width="300"> |
 
 The sorting algorithms visualization project which contains 6 different algorithms.
+In the chart the red rectangle is the larger number and the yellow and orange is smaller number
 
 ## Features
 
