@@ -8,4 +8,4 @@
 import Foundation
 import SwiftUI
 
-let myAccentColor = Color(hue: 0.281, saturation: 0.605, brightness: 0.655)
+let myAccentColor = Color.green

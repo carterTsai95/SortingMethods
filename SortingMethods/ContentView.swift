@@ -124,26 +124,23 @@ struct ContentView: View {
                     }
                 } label: {
                     Text(isSorting ? "Stop" : "Sort")
-                        .frame(width: 35, height: 35, alignment: .center)
-                         .padding()
-                         .overlay(
-                             Circle()
-                             .stroke(Color.orange, lineWidth: 4)
-                             .padding(6)
-                         )
-                        .background(isSorting ? Color(.red).opacity(0.7) : myAccentColor
-)
+                        .font(.title)
+                        .frame(width: 100, height: 35, alignment: .center)
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(isSorting ? Color(.red).opacity(0.7) : myAccentColor)
+                        .cornerRadius(10)
                         
                 }
                 
                 Button {
                     generateRects()
                 } label: {
-                    Image(systemName: "arrow.clockwise")
-                        .font(.system(size: 20, weight: .bold))
+                    Text("Reset")
+                        .font(.system(size: 20))
                         .padding()
                         .foregroundColor(.white)
-                        .background(Color.blue)
+                        .background(Color.gray)
                         .cornerRadius(10)
                 }
             }
