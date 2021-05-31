@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2B448D5E26646250005E0D4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B448D5D26646250005E0D4B /* Constants.swift */; };
+		2B448D6126647156005E0D4B /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D6026647155005E0D4B /* 01.gif */; };
+		2B448D6726647160005E0D4B /* 03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D622664715F005E0D4B /* 03.gif */; };
+		2B448D6826647160005E0D4B /* 02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D632664715F005E0D4B /* 02.gif */; };
+		2B448D6926647160005E0D4B /* 05.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D642664715F005E0D4B /* 05.gif */; };
+		2B448D6A26647160005E0D4B /* 04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D652664715F005E0D4B /* 04.gif */; };
+		2B448D6B26647160005E0D4B /* 06.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B448D6626647160005E0D4B /* 06.gif */; };
 		2B98C2EA2662F8FE003F1A87 /* SortingMethodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */; };
 		2B98C2EC2662F8FE003F1A87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B98C2EB2662F8FE003F1A87 /* ContentView.swift */; };
 		2B98C2EE2662F8FF003F1A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B98C2ED2662F8FF003F1A87 /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 
 /* Begin PBXFileReference section */
 		2B448D5D26646250005E0D4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B448D6026647155005E0D4B /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
+		2B448D622664715F005E0D4B /* 03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 03.gif; sourceTree = "<group>"; };
+		2B448D632664715F005E0D4B /* 02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 02.gif; sourceTree = "<group>"; };
+		2B448D642664715F005E0D4B /* 05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 05.gif; sourceTree = "<group>"; };
+		2B448D652664715F005E0D4B /* 04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 04.gif; sourceTree = "<group>"; };
+		2B448D6626647160005E0D4B /* 06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 06.gif; sourceTree = "<group>"; };
 		2B98C2E62662F8FE003F1A87 /* SortingMethods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingMethods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B98C2E92662F8FE003F1A87 /* SortingMethodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingMethodsApp.swift; sourceTree = "<group>"; };
 		2B98C2EB2662F8FE003F1A87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,9 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B448D5F26646EF0005E0D4B /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				2B448D6026647155005E0D4B /* 01.gif */,
+				2B448D632664715F005E0D4B /* 02.gif */,
+				2B448D622664715F005E0D4B /* 03.gif */,
+				2B448D652664715F005E0D4B /* 04.gif */,
+				2B448D642664715F005E0D4B /* 05.gif */,
+				2B448D6626647160005E0D4B /* 06.gif */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		2B98C2DD2662F8FE003F1A87 = {
 			isa = PBXGroup;
 			children = (
+				2B448D5F26646EF0005E0D4B /* Screenshot */,
 				2B98C2E82662F8FE003F1A87 /* SortingMethods */,
 				2B98C2E72662F8FE003F1A87 /* Products */,
 			);
@@ -149,8 +175,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B448D6926647160005E0D4B /* 05.gif in Resources */,
+				2B448D6826647160005E0D4B /* 02.gif in Resources */,
+				2B448D6B26647160005E0D4B /* 06.gif in Resources */,
 				2B98C2F12662F8FF003F1A87 /* Preview Assets.xcassets in Resources */,
 				2B98C2EE2662F8FF003F1A87 /* Assets.xcassets in Resources */,
+				2B448D6A26647160005E0D4B /* 04.gif in Resources */,
+				2B448D6126647156005E0D4B /* 01.gif in Resources */,
+				2B448D6726647160005E0D4B /* 03.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
