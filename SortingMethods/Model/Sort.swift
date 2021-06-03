@@ -10,5 +10,6 @@ import Foundation
 protocol SortType {
     var name: String { get }
     var timeComplexity: String {get }
+    var webAddress: String {get }
     mutating func sort(items: [RectData]) -> [SwapData]
 }

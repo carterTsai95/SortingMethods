@@ -9,10 +9,13 @@ import Foundation
 
 /// BubbleSort：Time Complexity----O(n^2)
 struct BubbleSort: SortType {
+    var webAddress: String = "https://en.wikipedia.org/wiki/Bubble_sort"
     
     var timeComplexity: String = "O(n^2)"
     
     var name: String = "BubbleSort"
+    
+    
     
     func sort(items: [RectData]) -> [SwapData] {
         var list = items
@@ -38,6 +41,7 @@ struct BubbleSort: SortType {
 
 /// InsertSort : Time Complexity - O(n^2)
 struct InsertSort: SortType{
+    var webAddress: String = "https://en.wikipedia.org/wiki/Insertion_sort"
     
     var timeComplexity: String = "O(n^2)"
     
@@ -78,6 +82,8 @@ struct InsertSort: SortType{
 
 ///ShellSort：Time Complexity - O(n^(3/2))
 struct ShellSort: SortType {
+    var webAddress: String = "https://en.wikipedia.org/wiki/Shellsort"
+    
     var timeComplexity: String = "O(n^(3/2))"
     
     var name: String = "ShellSort"
@@ -115,6 +121,7 @@ struct ShellSort: SortType {
 
 /// SimpleSelection Sort  : Time Complexity - O(n^2)
 struct SimpleSelectionSort:  SortType {
+    var webAddress: String = "https://en.wikipedia.org/wiki/Selection_sort"
     
     var timeComplexity: String = "O(n^2)"
     var name: String = "SelectionSort"
@@ -163,6 +170,8 @@ struct SimpleSelectionSort:  SortType {
 
 /// Heap Sort : Time Complexity -  (O(nlogn))
 struct HeapSort: SortType {
+    var webAddress: String = ""
+    
     var timeComplexity: String = "O(nlogn)"
     var name: String = "HeapSort"
     var swaps = [SwapData]()
@@ -233,6 +242,7 @@ struct HeapSort: SortType {
 
 /// Quick Sort - Time Complexity O(nlogn)
 struct QuickSort: SortType {
+    var webAddress: String = "https://en.wikipedia.org/wiki/Heapsort"
     
     var timeComplexity: String = "O(nlogn)"
     var name: String = "QuickSort"

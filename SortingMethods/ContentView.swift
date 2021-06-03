@@ -14,6 +14,7 @@ struct ContentView: View {
     @State var swapDuration: Double = 0
     @State var numOfObjects: Double = 100
     @State var isSorting = false
+    @State private var presentingSheet = false
     
     let maxNumOfObjects: Double = 800
     
@@ -37,34 +38,53 @@ struct ContentView: View {
     
     
     var body: some View {
-        
-        VStack(alignment: .leading) {
-                Text("Time Complexity: \(sortingSelection.timeComplexity)")
-                    .bold()
-                    .padding()
-                
-                GeometryReader { geo in
-                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(minimum: 0.001), spacing: 0), count: rectsData.count), alignment: .center, spacing: 0) {
-                        ForEach(rectsData) { data in
-                            HStack(spacing: 0) {
-                                Rectangle()
-                                    .frame(height: geo.size.height * data.value)
-                                    .foregroundColor(Color(hue: Double(data.value), saturation: 1, brightness: 1))
-                            }
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-                        }
-                        .frame(height: geo.size.height)
-                        .animation(Animation.easeInOut(duration: 0.1))
+        NavigationView {
+            VStack(alignment: .leading) {
+                HStack{
+                    Text("Time Complexity: \(sortingSelection.timeComplexity)")
+                        .bold()
+                    Spacer()
+                    
+                    Button(action: {
+                        self.presentingSheet = true
+                    }) {
+                        Image(systemName: "magnifyingglass")
+                        Text("More")
+                            .padding(.horizontal, 5)
+                    }
+                    .padding(.all, 5)
+                    .foregroundColor(Color.white)
+                    .background(Color.orange)
+                    .cornerRadius(8)
+                    .sheet(isPresented: $presentingSheet) {
+                        IntroductionView(webAddress: sortingSelection.webAddress)
                     }
                 }
-                
-                ZStack {
-                    controlPanelView
+                .padding(.horizontal)
+                    
+                    
+                    GeometryReader { geo in
+                        LazyVGrid(columns: Array(repeating: GridItem(.flexible(minimum: 0.001), spacing: 0), count: rectsData.count), alignment: .center, spacing: 0) {
+                            ForEach(rectsData) { data in
+                                HStack(spacing: 0) {
+                                    Rectangle()
+                                        .frame(height: geo.size.height * data.value)
+                                        .foregroundColor(Color(hue: Double(data.value), saturation: 1, brightness: 1))
+                                }
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                            }
+                            .frame(height: geo.size.height)
+                            .animation(Animation.easeInOut(duration: 0.1))
+                        }
+                    }
+                    
+                    ZStack {
+                        controlPanelView
+                    }
+                    
                 }
-                
-            }
-        
-        
+            .navigationBarHidden(true)
+        }
         .onAppear() {
             generateRects()
         }
