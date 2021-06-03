@@ -31,9 +31,12 @@ class WebviewController: UIViewController, WKNavigationDelegate {
     lazy var webview: WKWebView = WKWebView()
     lazy var progressbar: UIProgressView = UIProgressView()
 
+    
     deinit {
+        view = UIView()
         self.webview.removeObserver(self, forKeyPath: "estimatedProgress")
         self.webview.scrollView.removeObserver(self, forKeyPath: "contentOffset")
+        
     }
 
     override func viewDidLoad() {

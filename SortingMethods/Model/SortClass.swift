@@ -170,7 +170,7 @@ struct SimpleSelectionSort:  SortType {
 
 /// Heap Sort : Time Complexity -  (O(nlogn))
 struct HeapSort: SortType {
-    var webAddress: String = ""
+    var webAddress: String = "https://en.wikipedia.org/wiki/Heapsort"
     
     var timeComplexity: String = "O(nlogn)"
     var name: String = "HeapSort"
@@ -242,7 +242,7 @@ struct HeapSort: SortType {
 
 /// Quick Sort - Time Complexity O(nlogn)
 struct QuickSort: SortType {
-    var webAddress: String = "https://en.wikipedia.org/wiki/Heapsort"
+    var webAddress: String = "https://en.wikipedia.org/wiki/Quicksort"
     
     var timeComplexity: String = "O(nlogn)"
     var name: String = "QuickSort"

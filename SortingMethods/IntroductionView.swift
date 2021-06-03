@@ -15,12 +15,8 @@ struct IntroductionView: View {
     
     var body: some View {
         NavigationView {
-            Webview(url: URL(string: webAddress)!)
-                .toolbar {
-                    ToolbarItem(placement: .confirmationAction) {
-                        Button("Confirm", action: { presentation.wrappedValue.dismiss() })
-                    }
-                }
+            Webview(url: (URL(string: webAddress) ?? URL(string: "https://google.com"))! )
+                .navigationBarHidden(true)
         }
         
     }
