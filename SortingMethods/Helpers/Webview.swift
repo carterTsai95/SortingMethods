@@ -23,7 +23,7 @@ struct Webview: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ webviewController: WebviewController, context: Context) {
-        //
+        //Update the UIView
     }
 }
 
